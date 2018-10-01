@@ -22,7 +22,7 @@ module Tippy
 
     #if gratuity is number, then we send number to calculate
     def number_based?
-      (@gratuity_is_a? Numeric) || (@gratuity.integer?)
+      (@gratuity.is_a? Numeric) || (@gratuity.integer?)
     end
 
     # if we string, then we call calculate once we figureout what amount
