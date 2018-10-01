@@ -10,8 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mahesh2684@gmail.com"]
 
   spec.summary       = %q{Gem for generating tipvalues}
-  spec.description   = %q{Practice gem}
-  spec.homepage      = "https://example.com"
+  spec.homepage      = "https://github.com/citta-lab/tippy_gem"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
