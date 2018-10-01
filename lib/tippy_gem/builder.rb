@@ -1,3 +1,10 @@
+class string
+  def integer?
+    return true if self =~ /^[1-9]\d*(\.\d+)?$/
+    false
+  end
+end
+
 module Tippy
   class Builder
 
