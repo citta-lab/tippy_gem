@@ -1,7 +1,6 @@
 class GreetingController < ApplicationController
-  def initialize name:
-    byebug
-    @name = name;
+  def initialize
+    @name = 'Engine Test';
   end
   def show_endpoint
     puts "Hello, " +@name+ " !"
