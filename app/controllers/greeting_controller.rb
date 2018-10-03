@@ -1,5 +1,5 @@
 class GreetingController < ApplicationController
-  def intialize(name)
+  def initialize name:
     byebug
     @name = name;
   end
